@@ -1,11 +1,15 @@
 import './Body.css'
+import { useNavigate } from 'react-router-dom'
+
 export default function Body(){
+
+  const navigate = useNavigate();
+
     return(
         <div>
-        
         <section className='item-2'>
           <h1>Welcome to the Plant Zone</h1>
-          <button className='item-b'>Contact</button>
+          <button className='item-b' onClick={()=>navigate("/contact")}>Contact</button>
         </section>
 
         <section className='Q-1'>
