@@ -2,6 +2,11 @@ import './Body.css'
 export default function Body(){
     return(
         <div>
+        
+        <section className='item-2'>
+          <h1>Welcome to the Plant Zone</h1>
+          <button className='item-b'>Contact</button>
+        </section>
 
         <section className='Q-1'>
                 <h1>Superior Quality</h1>

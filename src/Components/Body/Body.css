@@ -1,8 +1,43 @@
 .main{
     background-color: white;
   }
-  
+
   /* Section - 1*/
+  
+  .item-2{
+    height: 625px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px;
+   background-image: url(https://static.vecteezy.com/system/resources/previews/015/234/554/large_2x/leaf-in-dark-green-texture-abstract-pattern-nature-background-used-for-making-backgrounds-or-wallpapers-with-space-for-text-free-photo.jpg);
+ }
+ 
+ .item-2 h1{
+   color:white;
+   font-size: 54px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 200px 10px 0px 40px;
+ }
+ 
+ .item-b {
+   background-color: white; 
+   color: black; 
+   margin-left: 40px;
+   font-size: 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 10px 40px; 
+   border: none; 
+   border-radius: 25px; 
+   cursor: pointer; 
+ }
+ 
+ .item-b:hover {
+   background-color: #406040; /* Darker shade of green on hover */
+ }
+
+  /* Section - 2*/
+ 
   .Q-1 h1{
     text-align: center;
     color: rgb(12, 77, 12);
@@ -22,7 +57,7 @@
     padding-right: 40px;
   }
   
-  /* Section - 2*/
+  /* Section - 3*/
   
   .Q-2 {
     display: flex;
@@ -62,3 +97,4 @@
     background-color: #ccccff; 
     padding: 25px;
   }
+   

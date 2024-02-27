@@ -8,15 +8,15 @@
   }
   
   .container {
-    margin: 1rem;
+    margin: 0rem;
     text-align: center;
   }
   
   .nav {
-    background-color: green;
+    background-color:rgb(3, 39, 25);
     color: white;
     display: flex;
-    justify-content:end;
+    justify-content:flex-end;
     gap: 2rem;
     padding: 0 1rem;
   }
@@ -32,7 +32,7 @@
     display: flex;
     gap: 1rem;
     font-size: x-large;
-    font-weight: 600;
+    font-weight: 300;
   }
   
   .nav a {
@@ -45,9 +45,9 @@
   }
   
   .nav li.active {
-    color: Black;
+    font-weight: 800;
   }
   
   .nav li:hover {
-    color: black;
+    font-weight: 700;
   }
